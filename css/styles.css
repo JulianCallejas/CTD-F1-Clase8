@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Rajdhani&display=swap');
+
+*{
+    margin:0px;
+    font-family: 'Rajdhani', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.about-header{
+    height: 70px;
+    padding-top: 25px;
+}
+
+.img-banner{
+    background-color: white;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.pic-banner{
+    max-height: 200px;
+}
+
+h1{
+    background-color: #0F1427;
+    color:white;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+
+.h1-bg-transparent{
+    background-color: rgba(15,20,39,0.1);
+}
+
+.navbar{
+    background-color: #0F1427;
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar a{
+    border: thin solid ;
+    border-color: white;
+    border-top: none;
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+section{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.titulo-section{
+    background-color: #0a2873;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Handlee', cursive;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+.contenido-section{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: left;
+    width: 400px;
+}
+
+.ct-contenido{
+    color: #0F1427;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    height: 60px;
+    padding-top: 25px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 28px;
+    border: none;
+}
+
+.text-justify{
+    text-align: justify;
+    margin-bottom: 15px;
+}
